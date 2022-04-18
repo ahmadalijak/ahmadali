@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import MetaData from "../components/MetaData";
 import "../css/websiteDevelopment.css";
 import { makeStyles } from "@material-ui/core/styles";
@@ -160,11 +160,11 @@ const WebsiteDevelopment = () => {
           />
         </Carousel>
       </Screen>
-      <div className="menu_btn">
+      {/* <div className="menu_btn">
         <IconButton>
           <i className="fa-solid fa-bars bar"></i>
         </IconButton>
-      </div>
+      </div> */}
       <div className="close_btn">
         <Link to="/" transition="flip-right" className="slide-close-button">
           <IconButton>

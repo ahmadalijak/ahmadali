@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import MetaData from "../components/MetaData";
 import "../css/OurWordpressPortfolio.css";
 import { makeStyles } from "@material-ui/core/styles";

@@ -14,7 +14,6 @@ import {
   flip,
   glide,
 } from "react-tiger-transition";
-import { IconButton } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   screen: {

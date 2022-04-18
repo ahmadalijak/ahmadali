@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Navigation,
@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <Screen className={classes.screen}>
       <Banners />
-      <WhatWeDo title="what we do"/>
+      <WhatWeDo title="what we do" />
       <Featuredwork />
       <Ourclients />
     </Screen>

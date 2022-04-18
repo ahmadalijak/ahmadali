@@ -142,45 +142,6 @@
   width: 32px;
 }
 
-/* tolltips */
-.w_icon::before,
-.w_icon::after {
-  --scale: 0;
-  --arrow-size: 20px;
-  --tooltip-color: #fff;
-  position: absolute;
-  top: -.25rem;
-  left: 50%;
-  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
-  transition: 150ms transform;
-  transform-origin: bottom center;
-}
-
-.w_icon::before {
-  --translate-y: calc(-100% - var(--arrow-size));
-  content: attr(data-tooltip);
-  color: #1fae55;
-  padding: .5rem;
-  border-radius: .3rem;
-  text-align: center;
-  width: max-content;
-  max-width: 100%;
-  background: var(--tooltip-color);
-  font-family: 'Raleway', sans-serif;
-}
-
-.w_icon:hover::before,
-.w_icon:hover::after {
-  --scale: 1;
-}
-
-.w_icon::after {
-  --translate-y: calc(-1 * var(--arrow-size));
-  content: '';
-  border: var(--arrow-size) solid transparent;
-  border-top-color: var(--tooltip-color);
-  transform-origin: top center;
-}
 #modal-modal-title{
   text-align: center;
   font-size: 32px;
@@ -188,6 +149,7 @@
   font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 20px;
 }
+
 @media (max-width: 600px) {
   #modal-modal-title{
     text-align: center;

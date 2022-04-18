@@ -79,11 +79,7 @@ const WebsiteDevelop = (props) => {
         aria-describedby="modal-modal-description"
       >
         <Box className="model_main">
-          <Typography
-            id="modal-modal-title"
-          >
-            {props.c_more_btn}
-          </Typography>
+          <Typography id="modal-modal-title">{props.c_more_btn}</Typography>
           <FormControl fullWidth sx={{ m: 1 }}>
             <TextField
               id="outlined-adornment-amount"

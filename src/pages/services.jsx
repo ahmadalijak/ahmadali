@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { useHistory } from "react-router-dom";
 import "../css/services.css";
 import MetaData from "../components/MetaData";
 import Service from "../components/service";
@@ -33,10 +32,8 @@ const Services = () => {
       <MetaData title="creativebonds - services" />
       <Navbar />
       <div className="services_section">
-  
-        <WhatWeDo title="our services"/>
-        {/*
-     *       <div className="c-section">
+        <WhatWeDo title="our services" />
+        <div className="c-section">
           <Service
             imgsrc="/assets/angular.png"
             stitle="Angular Services"
@@ -81,10 +78,8 @@ const Services = () => {
             imgsrc="/assets/shopping.png"
             stitle="Shopping Carts"
             spara="Experts in creating online stores using open source solutions and custom build."
-          /> 
-     </div>
- */}
-    
+          />
+        </div>
       </div>
     </Screen>
   );

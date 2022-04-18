@@ -1,13 +1,68 @@
 [
     {
-        "name":"Test Project",
+        "name":"Mobile App",
         "slug":"/wordpress/test-2",    
         "tags":[
             "wordpress"
         ],
         "featured":true,
-        "image":"/assets/gallery1.jpg",
+        "image":"/assets/f1.jpg",
         "shortintro":"",
         "description":""
-    }   
+    },   
+    {
+        "name":"Property Wizard",
+        "slug":"/wordpress/test-2",    
+        "tags":[
+            "wordpress"
+        ],
+        "featured":true,
+        "image":"/assets/f2.jpg",
+        "shortintro":"",
+        "description":""
+    },   
+    {
+        "name":"Ecommerce Website",
+        "slug":"/wordpress/test-2",    
+        "tags":[
+            "wordpress"
+        ],
+        "featured":true,
+        "image":"/assets/f6.jpg",
+        "shortintro":"",
+        "description":""
+    },
+    {
+        "name":"Mobile App",
+        "slug":"/wordpress/test-2",    
+        "tags":[
+            "wordpress"
+        ],
+        "featured":true,
+        "image":"/assets/f1.jpg",
+        "shortintro":"",
+        "description":""
+    },   
+    {
+        "name":"Property Wizard",
+        "slug":"/wordpress/test-2",    
+        "tags":[
+            "wordpress"
+        ],
+        "featured":true,
+        "image":"/assets/f2.jpg",
+        "shortintro":"",
+        "description":""
+    },   
+    {
+        "name":"Ecommerce Website",
+        "slug":"/wordpress/test-2",    
+        "tags":[
+            "wordpress"
+        ],
+        "featured":true,
+        "image":"/assets/f6.jpg",
+        "shortintro":"",
+        "description":""
+    }     
 ]

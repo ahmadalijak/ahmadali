@@ -16,6 +16,7 @@ import {
   glide,
 } from "react-tiger-transition";
 import Work from "../components/work";
+
 const useStyles = makeStyles((theme) => ({
   screen: {
     backgroundColor: "#fff",
@@ -30,8 +31,8 @@ const OurPortfolio = () => {
       <Screen className={classes.screen}>
         <div className="h1">our portfolio</div>
         <div className="feature_box">
-        <Work/>
-          </div>
+          <Work />
+        </div>
       </Screen>
     </>
   );

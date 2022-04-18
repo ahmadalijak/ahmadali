@@ -89,7 +89,7 @@ const WhatWeDo = (props) => {
           options={{
             height: 100,
             amplitude: 20,
-            speed: 0.2,
+            speed: 0.3,
             points: 4,
           }}
         />

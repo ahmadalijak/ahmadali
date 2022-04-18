@@ -113,11 +113,6 @@ const Branding = () => {
           />
         </Carousel>
       </Screen>
-      <div className="menu_btn">
-        <IconButton>
-          <i className="fa-solid fa-bars bar"></i>
-        </IconButton>
-      </div>
       <div className="close_btn">
         <Link to="/" transition="flip-right" className="slide-close-button">
           <IconButton>
