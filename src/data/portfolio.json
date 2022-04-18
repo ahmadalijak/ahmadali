@@ -1,0 +1,13 @@
+[
+    {
+        "name":"Test Project",
+        "slug":"/wordpress/test-2",    
+        "tags":[
+            "wordpress"
+        ],
+        "featured":true,
+        "image":"/assets/gallery1.jpg",
+        "shortintro":"",
+        "description":""
+    }   
+]

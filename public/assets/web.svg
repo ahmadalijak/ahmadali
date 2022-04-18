@@ -1,0 +1,65 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="96" height="59.18" viewBox="0 0 96 59.18">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Lcd">
+    <path id="Monitor" class="cls-1" d="M494.3,1399.38v-16.56a2.424,2.424,0,0,0-2.432-2.42H414.435a2.427,2.427,0,0,0-2.435,2.42v42.54h0v2.13a1.43,1.43,0,0,0,1.433,1.42h31.689c-0.129,2.79-.752,8.41-3.681,9.64,0,0-1.137,1.05,2.044,1.05h18.395c3.18,0,2.044-1.05,2.044-1.05-2.929-1.23-3.554-6.85-3.681-9.64h17.311l-0.143-4.82H415.97v-39.55a0.34,0.34,0,0,1,.343-0.34h73.67a0.342,0.342,0,0,1,.346.34v14.69Zm-42.706,29.06a1.212,1.212,0,1,1,1.212,1.2A1.2,1.2,0,0,1,451.589,1428.44Z" transform="translate(-412 -1380.41)"/>
+    <g id="Screen_Data" data-name="Screen Data">
+      <path id="Rounded_Rectangle_6" data-name="Rounded Rectangle 6" class="cls-2" d="M477,1419H456a2,2,0,0,1-2-2v-19a2,2,0,0,1,2-2h27a2,2,0,0,1,2,2" transform="translate(-412 -1380.41)"/>
+      <path id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-3" d="M422,1416v-1h18v1H422Zm0-6v-1h26v1H422Zm0-7v-1h20v1H422Zm2-13a2,2,0,1,1-2,2A2,2,0,0,1,424,1390Zm6,0a2,2,0,1,1-2,2A2,2,0,0,1,430,1390Zm6,0a2,2,0,1,1-2,2A2,2,0,0,1,436,1390Z" transform="translate(-412 -1380.41)"/>
+    </g>
+  </g>
+  <g id="Tab">
+    <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M505.453,1402.44H483.107a2.53,2.53,0,0,0-2.543,2.52v32.11a2.538,2.538,0,0,0,2.543,2.53h22.346a2.542,2.542,0,0,0,2.543-2.53v-32.11A2.532,2.532,0,0,0,505.453,1402.44Zm-11.172,36.21a1.5,1.5,0,1,1,1.512-1.5A1.5,1.5,0,0,1,494.281,1438.65Zm11.143-4.31H483.139v-28.87h22.285v28.87Z" transform="translate(-412 -1380.41)"/>
+    <path id="Ellipse_1_copy_5" data-name="Ellipse 1 copy 5" class="cls-3" d="M486,1429v-1h17v1H486Zm0-6v-1h14v1H486Zm0-6v-1h15v1H486Zm13.5-9a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,499.5,1408Zm-10,0a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,489.5,1408Zm5,0a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,494.5,1408Z" transform="translate(-412 -1380.41)"/>
+  </g>
+</svg>

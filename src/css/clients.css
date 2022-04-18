@@ -1,0 +1,166 @@
+.client_page {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.h3 {
+  margin-top: 70px;
+  font-size: 70px;
+  color: #6bb325;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.client-img h2 {
+  color: #333333;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+.client-img p {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.client-content .qoutes_imgs {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  top: -39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #6bb325;
+  border: 3px solid #fff;
+  font-size: 50px;
+  color: #b5d992;
+}
+
+.client-chat {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.client-chat:nth-child(2n) .client-content {
+  background: #03a5db;
+}
+
+.client-chat:nth-child(3n) .client-content {
+  background: #f04f54;
+}
+
+.client-chat:nth-child(2n) .client-content:before {
+  border-top-color: #03a5db;
+}
+
+.client-chat:nth-child(3n) .client-content:before {
+  border-top-color: #f04f54;
+}
+
+.client-chat:nth-child(2n) .client-content .qoutes_imgs {
+  background: #03a5db;
+  color: #81d2ed;
+}
+
+.client-chat:nth-child(3n) .client-content .qoutes_imgs {
+  background: #f04f54;
+  color: #f8a7aa;
+}
+
+.client-content::before {
+  content: "";
+  position: absolute;
+  bottom: -49px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid #6bb325;
+  border-right: 50px solid transparent;
+}
+
+.client-content.red {
+  background: #f04f54;
+}
+
+.client-content.red:before {
+  border-top-color: #f04f54;
+}
+
+.client-content.red .qoutes_imgs {
+  background: #f04f54;
+  color: #f8a7aa;
+}
+
+.client-content.blue {
+  background: #03a5db;
+}
+
+.client-content.blue:before {
+  border-top-color: #03a5db;
+}
+
+.client-content.blue .qoutes_imgs {
+  background: #03a5db;
+  color: #81d2ed;
+}
+
+.more-clients {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 110px;
+  font-size: 23px;
+  font-weight: 400;
+  color: #6bb325;
+  text-decoration: none;
+  padding: 14px 0px;
+  border: 2px solid #6bb325;
+  width: 330px;
+  border-radius: 50px;
+  transition: 0.3s linear;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.more-clients:hover {
+  color: #fff;
+  background: #6bb325;
+}
+
+.arrow_btns{
+  position: absolute;
+  top: 20px;
+  right: 30px;  
+}
+
+.arrow_btns i{
+  font-size: 23px;
+  color: #333333;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .client_page {
+    padding: 96px;
+  }
+  .h3 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+}

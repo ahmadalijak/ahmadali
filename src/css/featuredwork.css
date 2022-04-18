@@ -1,0 +1,251 @@
+.image_block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured-work {
+  text-align: center;
+  padding: 70px 0px;
+}
+
+.featured-work h2 {
+  margin-bottom: 70px;
+  font-size: 65px;
+  color: #333333;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.more-client {
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  font-size: 26px;
+  color: #6bb325;
+  text-decoration: none;
+  padding: 12px 0px;
+  border: 2px solid #6bb325;
+  width: 350px;
+  border-radius: 50px;
+  transition: 0.3s linear;
+  font-family: 'Raleway', sans-serif;
+}
+
+.more-client:hover {
+  color: white;
+  background: #6bb325;
+}
+/* small image styling */
+.image {
+  position: relative;
+  cursor: pointer;
+}
+
+.image__img {
+  display: block;
+  width: 350px;
+  height: 300px;
+  margin-left: 1px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+  background: #03a5db;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__btn {
+  width: max-content;
+  padding: 5px 10px;
+  height: 35px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  color: #03a5db;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  line-height: 35px;
+  border-radius: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image__description {
+  width: 300px;
+  font-size: 18px;
+  margin-top: 0.25em;
+  color: #fff;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* capital image styling */
+
+.image4 {
+  position: relative;
+  cursor: pointer;
+}
+
+.image__img4 {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin-left: 2px;
+}
+
+.image__overlay4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur4 {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary4 {
+  background: #1fae55;
+}
+
+.image__overlay4 > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay4:hover {
+  opacity: 1;
+}
+
+.image__overlay4:hover > * {
+  transform: translateY(0);
+}
+
+.image__btn4 {
+  width: max-content;
+  padding: 5px 10px;  
+  height: 35px;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: italic;
+  color: #1fae55;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  line-height: 35px;
+  border-radius: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image__description4 {
+  width: 300px;
+  font-size: 18px;
+  margin-top: 0.25em;
+  color: #fff;
+  text-align: justify;
+}
+.portfoliogrid{
+    display: inline-block;
+}
+@media (max-width: 600px) {
+  .featured-work {
+    width: 100%;
+    margin: left;
+  }
+
+  .featured-work h2 {
+    font-size: 50px;
+    margin-bottom: 70px;
+    color: #6bb325;
+  }
+
+  .image__img {
+    display: block;
+    width: 350px;
+    height: 250px;
+    margin-left: 1px;
+    margin-top: 10px;
+  }
+
+  .image__img4 {
+    display: block;
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  
+  .more-client {
+    font-size: 26px;
+    color: #1fae55;
+    text-decoration: none;
+    padding: 14px 0px;
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .featured-work h2 {
+    font-size: 40px;
+  }
+  .more-client {
+    font-size: 23px;
+    color: #1fae55;
+    text-decoration: none;
+    padding: 12px 0px;
+    width: 250px;
+  }
+
+  .image__img {
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin-left: 1px;
+    margin-top: 10px;
+  }
+}

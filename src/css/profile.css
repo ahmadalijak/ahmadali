@@ -1,0 +1,115 @@
+.profileContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: #f04f54;
+  }
+  
+  .profileContainer > div {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+  }
+
+  .profile_btn {
+    display: block;
+    margin: 0 5px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 0px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  /* right side */
+  .right_side{
+      margin-right: 100px;
+  }
+  .user-title {
+    color: #fff;
+    transform: translateX(-10vmax) translateY(-2vmax);
+    margin-right: -900px;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .userimg {
+    width: 300px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .userimg:hover {
+      transform: scale(1.05);
+    }
+  .name_side{
+      margin: 100px;
+      display: flex;
+      align-items: center;
+  }
+  .full_name{
+      color: #fff;
+      font-size: 40px;
+  }
+  .full_name_child{
+      color: #fff;
+      font-size: 30px;
+  }
+  .email_side{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .email{
+    color: #fff;
+    font-size: 40px;
+}
+.email_child{
+    color: #fff;
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .profileContainer {
+    flex-direction: column;
+  }
+  .userimg {
+    width: 20vmax;
+    border-radius: 100%;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .name_side{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .full_name{
+    font-size: 30px;
+  }
+  .full_name_child{
+    font-size: 25px;
+  }
+  .email{
+    font-size: 30px;
+  }
+  .email_child{
+    font-size: 25px;
+  }
+  .email_side{
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .btn_action{
+    display: none;
+  }
+}

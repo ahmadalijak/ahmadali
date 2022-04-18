@@ -1,0 +1,287 @@
+.our-client {
+  padding: 70px 0px 40px 0px;
+  background: #00293d;
+}
+
+.our-client h2 {
+  font-size: 65px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
+}
+.client-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.client-boxes {
+  width: 42%;
+}
+.client-content {
+  position: relative;
+  padding: 55px 50px;
+  color: #fff;
+  background: #6bb325;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+.client-content p {
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+.client-content .qoutes_img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  top: -39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #6bb325;
+  border: 3px solid #00293d;
+  font-size: 50px;
+  color: #b5d992;
+}
+.qoute_img {
+  width: 45px;
+  filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(74deg)
+    brightness(99%) contrast(105%);
+}
+.client-chat {
+  margin-bottom: 60px;
+  width: 100%;
+}
+.client-chat:nth-child(2n) .client-content {
+  background: #03a5db;
+}
+.client-chat:nth-child(3n) .client-content {
+  background: #f04f54;
+}
+.client-chat:nth-child(2n) .client-content:before {
+  border-top-color: #03a5db;
+}
+.client-chat:nth-child(3n) .client-content:before {
+  border-top-color: #f04f54;
+}
+.client-chat:nth-child(2n) .client-content .qoutes_img {
+  background: #03a5db;
+  color: #81d2ed;
+}
+.client-chat:nth-child(3n) .client-content .qoutes_img {
+  background: #f04f54;
+  color: #f8a7aa;
+}
+.client-content::before {
+  content: "";
+  position: absolute;
+  bottom: -49px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid #6bb325;
+  border-right: 50px solid transparent;
+}
+.client-content.red {
+  background: #f04f54;
+}
+.client-content.red:before {
+  border-top-color: #f04f54;
+}
+.client-content.red .qoutes_img {
+  background: #f04f54;
+  color: #f8a7aa;
+}
+.client-content.blue {
+  background: #03a5db;
+}
+.client-content.blue:before {
+  border-top-color: #03a5db;
+}
+.client-content.blue .qoutes_img {
+  background: #03a5db;
+  color: #81d2ed;
+}
+.client-img {
+  display: flex;
+  align-items: center;
+}
+
+.client-img img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.client-img h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 25px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+.client-img h1 p {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.client-boxes.right .client-chat .client-img {
+  width: 100%;
+  justify-content: right;
+  text-align: right;
+}
+.client-boxes.right .client-chat .client-img h1 {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.client-boxes.right .client-chat .client-content::before {
+  border-right: 0;
+  border-left: 50px solid transparent;
+  right: 11%;
+}
+.fot-social {
+  text-align: center;
+}
+.fot-social ul {
+  list-style: none;
+  display: inline-flex;
+}
+.fot-social ul li a img {
+  filter: invert(13%) sepia(28%) saturate(3197%) hue-rotate(169deg)
+    brightness(93%) contrast(103%);
+}
+.fot-social ul li a {
+  background: #80949e;
+  margin: 0px 6px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 35px;
+  border-radius: 50px;
+  transition: 0.3s linear;
+}
+.fot-social ul li a:hover {
+  background: #fff;
+}
+.fot-social .more-client {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 110px;
+  font-size: 23px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 0px;
+  border: 2px solid #fff;
+  width: 330px;
+  border-radius: 50px;
+  transition: 0.3s linear;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fot-social .more-client:hover {
+  color: #00293d;
+  background: #fff;
+}
+.fot-social p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 63px;
+  font-family: 'Raleway', sans-serif;
+}
+.banner .slick-arrow {
+  opacity: 0;
+}
+@media (max-width: 660px) {
+  .fot-social .more-client {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 2px solid #fff;
+    width: 280px;
+    border-radius: 50px;
+    transition: 0.3s linear;
+  }
+  .fot-social ul li a {
+    width: 50px;
+    height: 50px;
+  }
+  .client-box {
+    display: block;
+  }
+  .client-boxes {
+    width: 100%;
+  }
+  .client-content {
+    padding: 50px 30px;
+    text-align: justify;
+  }
+  .client-chat {
+    margin-bottom: 60px;
+    width: 390px;
+  }
+  .client-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .client-img img {
+    max-width: 20%;
+    border-radius: 50%;
+  }
+  .client-img h1 {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .client-img h1 p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+  .our-client h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .our-client h2 {
+    font-size: 40px;
+  }
+  .fot-social .more-client {
+    width: 230px;
+    font-size: 18px;
+  }
+  .fot-social ul li a {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .client-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .client-boxes {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.feature_box {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  border-color: #00293d;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #00293d;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+@media (max-width: 600px) {
+  .client_page {
+    width: 90%;
+    margin-top: 100px;
+    margin-left: -75px;
+  }
+}
