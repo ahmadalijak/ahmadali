@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/clients.css";
 import MetaData from "../components/MetaData";
 import "../css/ourPortfolio.css";
 import { makeStyles } from "@material-ui/core/styles";

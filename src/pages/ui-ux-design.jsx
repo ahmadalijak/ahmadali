@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import MetaData from "../components/MetaData";
 import "../css/websiteDevelopment.css";
 import { makeStyles } from "@material-ui/core/styles";
@@ -36,15 +36,6 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "10px",
   },
 }));
-const customRenderThumb = (children) =>
-  children.map((item) => {
-    // const videoId = getVideoId(item.props.url);
-    return (
-      <div className="w_icon" data-tooltip={item.props.c_title}>
-        <img src={item.props.c_img} className="w_img" />
-      </div>
-    );
-  });
 
 const WebsiteDevelopment = () => {
   const classes = useStyles();
@@ -61,11 +52,10 @@ const WebsiteDevelopment = () => {
           showArrows={false}
           showThumbs={true}
           showStatus={false}
-          showIndicators={false}
+          showIndicators={true}
           speed={2000}
           infiniteLoop={true}
           stopOnHover={true}
-          renderThumbs={customRenderThumb}
         >
           <WebsiteDevelop
             link="/service/wordpress-design-and-development"

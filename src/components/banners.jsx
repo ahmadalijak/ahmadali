@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Navber from "./navbar";
+
 import { Carousel } from "react-responsive-carousel";
 import {
   Navigation,
@@ -24,11 +25,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Banners = () => {
-  const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => {
-    setSidebar(!sidebar);
-  };
-
   const classes = useStyles();
   return (
     <>
@@ -44,7 +40,7 @@ const Banners = () => {
           <span></span>
         </div>
         <Carousel
-          // autoPlay={true}
+          autoPlay={true}
           useKeyboardArrows={true}
           swipeable={true}
           stopOnHover={true}
@@ -65,13 +61,6 @@ const Banners = () => {
                 <div className="create-section">
                   <h1 className="create">CREATE</h1>
                   <h3 className="awesome">AWESOME SOLUTION</h3>
-                  <Link
-                    to="/services"
-                    transition="glide-right"
-                  className="banner_btn"
-                  >
-                    view our services
-                  </Link>
                 </div>
               </div>
             </div>
@@ -91,13 +80,6 @@ const Banners = () => {
                 <div className="create-section">
                   <h1 className="create">DEVELOP</h1>
                   <h3 className="awesome">ENGAGING EXPERIENCE</h3>
-                  <Link
-                    to="/ourportfolio"
-                    transition="slide-left"
-                    className="banner_btn"
-                  >
-                    view our work
-                  </Link>
                 </div>
               </div>
             </div>
@@ -117,13 +99,6 @@ const Banners = () => {
                 <div className="create-section">
                   <h1 className="create">BUILD</h1>
                   <h3 className="awesome"> LASTING BONDS</h3>
-                  <Link
-                    to="/clients"
-                    transition="slide-left"
-                    className="banner_btn"
-                  >
-                    satisfied client
-                  </Link>
                 </div>
               </div>
             </div>
@@ -143,13 +118,6 @@ const Banners = () => {
                 <div className="create-section">
                   <h1 className="create">DEVELOP</h1>
                   <h3 className="awesome">ENGAGING EXPERIENCES</h3>
-                  <Link
-                    to="/ourportfolio"
-                    transition="slide-left"
-                    className="banner_btn"
-                  >
-                    view our work
-                  </Link>
                 </div>
               </div>
             </div>

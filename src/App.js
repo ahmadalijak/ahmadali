@@ -23,7 +23,6 @@ import Home from "./pages/home";
 import WebsiteDevelopment from "./pages/website-development";
 import UiUxDesign from "./pages/ui-ux-design";
 import Branding from "./pages/branding-and-print-design";
-import AllClients from "./pages/clients";
 import Services from "./pages/services";
 import OurPortfolio from "./pages/ourPortfolio";
 import OurWordpressPortfolio from "./pages/ourWordpressPortfolio";
@@ -110,9 +109,6 @@ const App = () => {
           </Route>
           <Route exact path="/branding-and-print-design">
             <Branding />
-          </Route>
-          <Route exact path="/clients">
-            <AllClients />
           </Route>
           <Route exact path="/services">
             <Services />

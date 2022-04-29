@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Navigation,
@@ -30,9 +30,7 @@ const Client = () => {
             enhance the UX of the application as we recognize logos more easily
             than plain text. Sometimes you might want to have icons for certain
             buttons to enhance the UX of the application as we recognize logos
-            more easily than plain text. Sometimes you might want to have icons
-            for certain buttons to enhance the UX of the application as we
-            recognize logos more easily than plain text.
+            more easily than plain text.
           </p>
           <div className="qoutes_img">
             <img src="/assets/quote.png" className="qoute_img" />
@@ -52,14 +50,9 @@ const Client = () => {
           <p>
             Sometimes you might want to have icons for certain buttons to
             enhance the UX of the application as we recognize logos more easily
-            than plain text. For example, if you have a delete button you can
-            label it with a dustbin icon. label it with a dustbin icon. label it
-            with a dustbin icon.
-            <br />
-            <br />
-            Quam excepturi obcaecati, voluptas quibusdam ipsum quaerat expedita
-            recusandae dolore molestias dolorum ducimus sapiente facere ut nisi
-            ad est vero! ad est vero! ad est vero! ad est vero!
+            than plain text. Sometimes you might want to have icons for certain
+            buttons to enhance the UX of the application as we recognize logos
+            more easily than plain text.
           </p>
           <div className="qoutes_img blue">
             <img src="/assets/quote.png" className="qoute_img" />
@@ -79,10 +72,9 @@ const Client = () => {
           <p>
             Sometimes you might want to have icons for certain buttons to
             enhance the UX of the application as we recognize logos more easily
-            than plain text. For example, if you have a delete button you can
-            label it with a dustbin icon. label it with a dustbin icon. label it
-            with a dustbin icon. label it with a dustbin icon. label it with a
-            dustbin icon.
+            than plain text. Sometimes you might want to have icons for certain
+            buttons to enhance the UX of the application as we recognize logos
+            more easily than plain text.
           </p>
           <div className="qoutes_img red">
             <img src="/assets/quote.png" className="qoute_img" />

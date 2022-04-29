@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .h1 {
   font-size: 50px;
   font-weight: 400;
@@ -16,7 +17,6 @@
   color: #00293d;
   font-family: 'Raleway', sans-serif;
 }
-
 
 @media (max-width: 600px) {
   .client_page {

@@ -37,17 +37,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const customRenderThumb = (children) =>
-  children.map((item) => {
-    return (
-      <>
-        <div className="w_icon" data-tooltip={item.props.c_title}>
-          <img src={item.props.c_img} />
-        </div>
-      </>
-    );
-  });
-
 const WebsiteDevelopment = () => {
   const classes = useStyles();
   return (
@@ -55,7 +44,7 @@ const WebsiteDevelopment = () => {
       <Screen className={classes.screen}>
         <MetaData title="creativebond - websitedevelopment" />
         <Carousel
-          // autoPlay={true}
+          autoPlay={true}
           useKeyboardArrows={true}
           swipeable={true}
           emulateTouch={true}
@@ -63,11 +52,10 @@ const WebsiteDevelopment = () => {
           showArrows={false}
           showThumbs={true}
           showStatus={false}
-          showIndicators={false}
+          showIndicators={true}
           speed={2000}
           infiniteLoop={true}
           stopOnHover={true}
-          renderThumbs={customRenderThumb}
         >
           <WebsiteDevelop
             link="/service/wordpress-design-and-development"
@@ -160,11 +148,6 @@ const WebsiteDevelopment = () => {
           />
         </Carousel>
       </Screen>
-      {/* <div className="menu_btn">
-        <IconButton>
-          <i className="fa-solid fa-bars bar"></i>
-        </IconButton>
-      </div> */}
       <div className="close_btn">
         <Link to="/" transition="flip-right" className="slide-close-button">
           <IconButton>

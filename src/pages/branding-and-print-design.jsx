@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import "../css/branding-and-print-design.css";
+import React from "react";
 import MetaData from "../components/MetaData";
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -17,13 +16,6 @@ import {
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import Modal from "@material-ui/core/Modal";
-import TextField from "@material-ui/core/TextField";
-import FormControl from "@material-ui/core/FormControl";
-import { useAlert } from "react-alert";
 import Close from "../svgs/close.svg";
 import { IconButton } from "@material-ui/core";
 import WebsiteDevelop from "../components/websitedevelop";
@@ -44,20 +36,9 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "10px",
   },
 }));
-const customRenderThumb = (children) =>
-  children.map((item) => {
-    return (
-      <div className="w_icon" data-tooltip={item.props.c_title}>
-        <img src={item.props.c_img} className="w_img" />
-      </div>
-    );
-  });
 
 const Branding = () => {
   const classes = useStyles();
-  const alert = useAlert();
-  const [open, setOpen] = useState(false);
-  const handleClose = () => setOpen(false);
 
   return (
     <>
@@ -72,11 +53,10 @@ const Branding = () => {
           showArrows={false}
           showThumbs={true}
           showStatus={false}
-          showIndicators={false}
+          showIndicators={true}
           speed={2000}
           infiniteLoop={true}
           stopOnHover={true}
-          renderThumbs={customRenderThumb}
         >
           <WebsiteDevelop
             link="/service/logo-design"

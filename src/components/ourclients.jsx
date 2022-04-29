@@ -1,7 +1,9 @@
 import React from "react";
 import "../css/ourclients.css";
+
 import Client from "./client";
 import { makeStyles } from "@material-ui/core/styles";
+
 import {
   Navigation,
   Route,
@@ -42,7 +44,7 @@ const Ourclients = () => {
             </div>
           </div>
           <div className="fot-social lightSpeedIn animated">
-            <Link to="/clients" className="more-client" transition="flip-left">
+            <Link to="" className="more-client" transition="flip-left">
               be our next satisfied client
             </Link>
             <ul>
