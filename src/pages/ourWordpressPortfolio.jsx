@@ -194,6 +194,7 @@ const OurWordpressPortfolio = () => {
             <Button
               onClick={() => {
                 alert.success("clicked");
+                setOpen(false);
               }}
               className={classes.btn}
               variant="contained"

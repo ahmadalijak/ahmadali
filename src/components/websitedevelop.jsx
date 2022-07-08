@@ -44,6 +44,12 @@ const WebsiteDevelop = (props) => {
   const [open, setOpen] = React.useState(false);
   const handleClose = () => setOpen(false);
 
+  const closeModel = () => {
+    setInterval(() => {
+      setOpen(false);
+    }, 1000);
+  };
+
   return (
     <>
       <div className="serviceslide">
@@ -160,6 +166,7 @@ const WebsiteDevelop = (props) => {
             <Button
               onClick={() => {
                 alert.success("clicked");
+                closeModel();
               }}
               className={classes.btn}
               variant="contained"
